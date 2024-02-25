@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header .icon-header {
+    margin: 0 auto;
+}
+
+.header .menu-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header .menu-header a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #bababa;
+    font-weight: 400;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header .menu-header a:hover {
+    color: rgb(253, 231, 143);
+}
+
+.header .menu-header .active {
+    color: rgb(253, 231, 143);
+}
+
+.header .menu-header .active:hover {
+    color: rgb(253, 231, 143);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    width: 42px;
+    margin: auto;
+}
+
+.contact .icon-contact {
+    padding: 3px;
+    cursor: pointer;
+    height: auto;
+}
+
+.contact .icon-contact img {
+    width: 15px;
+    height: 15px;
+}
+
+.copy-right {
+    width: 99%;
+
+    color: grey;
+}
+
+.copy-right p {
+    float: right;
+    font-size: 12px;
+}
+
+body {
+    background: #2f3640;
+}
+
+.body {
+    margin-bottom: 50px;
+
+}
+
+.carousel {
+    overflow-x: clip;
+}
+
+.swiper {
+    padding: 5rem 0;
+    overflow: visible;
+
+    .swiper-slide {
+        width: 400px;
+    }
+}
+
+.single {
+    position: relative;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    img {
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+}
+
+.btn-move-slider {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    top: 50%;
+    position: absolute;
+    z-index: 999;
+    padding: 0 15px 0 10px;
+}
+
+.btn-move-slider .btns {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(230, 229, 229, 0.453);
+}
+
+.btn-move-slider .btns img {
+    margin: 8px 9px;
+}
